@@ -16,9 +16,9 @@ download_link = types.InlineKeyboardButton(text="📎 Скачать PDF (5.2MB)
 inline_manual.add(download_link)
 
 inline_about = types.InlineKeyboardMarkup()
-off_link = types.InlineKeyboardButton(text="🌍 Официальный сайт", url="https://t.me/slivmenss/") #https://eyeofgod.info/
-vk_link = types.InlineKeyboardButton(text="⛓ Вконтакте", url="https://t.me/slivmenss/") #https://vk.com/eyegodbot/
-facebook_link = types.InlineKeyboardButton(text="⛓ Facebook", url="https://t.me/slivmenss/") #https://www.facebook.com/eyegodbot/
+off_link = types.InlineKeyboardButton(text="🌍 Официальный сайт", url="https://eyeofgod.info/") 
+vk_link = types.InlineKeyboardButton(text="⛓ Вконтакте", url="https://eyeofgod.info/")
+facebook_link = types.InlineKeyboardButton(text="⛓ Facebook", url="https://eyeofgod.info/") 
 telegram_link = types.InlineKeyboardButton(text="⛓ Telegram", url="https://t.me/"+config.loginbot+"/")
 inline_about.row(off_link)
 inline_about.row(vk_link, facebook_link, telegram_link)
